@@ -14,3 +14,4 @@ The idea is to use OpenAI to generate the Mermaid code from a text description.
  - copy the `.env.example` file to `.env` and fill the variables
  - edit the `description` variable in the `app/cli.js` file
  - `npm start`
+

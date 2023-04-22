@@ -1,0 +1,13 @@
+sequenceDiagram
+    participant User
+    participant App
+    participant AI Service
+    participant Mermaidjs Library
+    User->>App: Modifies app/cli.js
+    App->>App: Executes app/cli.js
+    App->>App: Reads .env file
+    App->>App: Invokes createDiagram function with descriptions
+    App->>AI Service: Calls AI Service to generate mermaid from descriptions
+    AI Service-->>App: Returns mermaid code
+    App->>App: Stores mermaid code in local storage
+    App->>Mermaidjs Library: Generates diagram from mermaid code in local storage
