@@ -1,0 +1,18 @@
+{
+  "name": "aimermaid",
+  "version": "0.0.1",
+  "description": "",
+  "type": "module",
+  "main": "app/cli.js",
+  "scripts": {
+    "start": "node app/cli.js"
+  },
+  "author": "Marco Casula <marco.casula@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "@mermaid-js/mermaid-cli": "^10.1.0",
+    "azure-openai": "^0.9.4",
+    "dotenv": "^16.0.3",
+    "openai": "^3.2.1"
+  }
+}
