@@ -15,3 +15,5 @@ The idea is to use OpenAI to generate the Mermaid code from a text description.
  - edit the `description` variable in the `app/cli.js` file
  - `npm start`
 
+### Output example
+<img src="https://raw.githubusercontent.com/kedoska/aimermaid/master/example/4nrkmrdny.mmd.png" />
